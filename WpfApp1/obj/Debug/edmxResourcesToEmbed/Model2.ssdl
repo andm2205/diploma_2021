@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище RADIOSV_Journal_backupModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "RADIOSV_Journal_backup.dbo.Gournal" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Gournal">
+    <Key>
+      <PropertyRef Name="inId" />
+    </Key>
+    <Property Name="inId" Type="bigint" Nullable="false" />
+    <Property Name="dtDate" Type="datetime" Nullable="false" />
+    <Property Name="stUser" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="stObject" Type="varchar" MaxLength="750" />
+    <Property Name="stComments" Type="varchar" MaxLength="750" />
+    <Property Name="inOperation" Type="int" Nullable="false" />
+    <Property Name="inGroup" Type="tinyint" />
+    <Property Name="idobject" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Хранилище RADIOSV_Journal_backupModelContainer">
+    <EntitySet Name="Gournal" EntityType="Self.Gournal" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Gournal].[inId] AS [inId], 
+    [Gournal].[dtDate] AS [dtDate], 
+    [Gournal].[stUser] AS [stUser], 
+    [Gournal].[stObject] AS [stObject], 
+    [Gournal].[stComments] AS [stComments], 
+    [Gournal].[inOperation] AS [inOperation], 
+    [Gournal].[inGroup] AS [inGroup], 
+    [Gournal].[idobject] AS [idobject]
+    FROM [dbo].[Gournal] AS [Gournal]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

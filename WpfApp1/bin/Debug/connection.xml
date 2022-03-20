@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Connection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <lastUseDateTime>2021-05-24T14:42:16.0656211+07:00</lastUseDateTime>
+  <ArchiveServerName>rs5045-53285</ArchiveServerName>
+  <ArchiveDbName>archive785</ArchiveDbName>
+  <LinkedServerName>srv-asus2</LinkedServerName>
+  <LinkedDbName>RADIOSV_Journal</LinkedDbName>
+  <LinkedTable1Name>Gournal</LinkedTable1Name>
+  <LinkedTable2Name>JournalDetails</LinkedTable2Name>
+  <LinkedServerDomain>rs.local</LinkedServerDomain>
+  <IsSingleServer>false</IsSingleServer>
+</Connection>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище RADIOSV_Journal_backupModelContainer" CdmEntityContainer="RADIOSV_Journal_backupEntities">
+    <EntitySetMapping Name="Gournal">
+      <EntityTypeMapping TypeName="RADIOSV_Journal_backupModel.Gournal">
+        <MappingFragment StoreEntitySet="Gournal">
+          <ScalarProperty Name="inId" ColumnName="inId" />
+          <ScalarProperty Name="dtDate" ColumnName="dtDate" />
+          <ScalarProperty Name="stUser" ColumnName="stUser" />
+          <ScalarProperty Name="stObject" ColumnName="stObject" />
+          <ScalarProperty Name="stComments" ColumnName="stComments" />
+          <ScalarProperty Name="inOperation" ColumnName="inOperation" />
+          <ScalarProperty Name="inGroup" ColumnName="inGroup" />
+          <ScalarProperty Name="idobject" ColumnName="idobject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

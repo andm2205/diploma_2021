@@ -1,0 +1,368 @@
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.baml
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\ExecuteWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\ExecuteWindow.baml
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\CreateWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\CreateWindow.baml
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\SearchWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\SearchWindow.baml
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\CreateWindow.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\CreateWindow.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+E:\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+E:\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+E:\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+E:\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+E:\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+E:\WpfApp1\WpfApp1\obj\Debug\CreateWindow.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\WelcomeWindow.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+E:\WpfApp1\WpfApp1\obj\Debug\CreateWindow.baml
+E:\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.baml
+E:\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+E:\WpfApp1\WpfApp1\obj\Debug\WelcomeWindow.baml
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+E:\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+E:\WpfApp1\WpfApp1\obj\Debug\SearchPage.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\SearchPage.baml
+E:\WpfApp1\WpfApp1\obj\Debug\ArchivePage.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\ArchivePage.baml
+E:\WpfApp1\WpfApp1\obj\Debug\ConnectWindow.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\ConnectWindow.baml
+E:\WpfApp1\WpfApp1\obj\Debug\PropsPanel.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\App.baml
+E:\WpfApp1\WpfApp1\obj\Debug\PropsPanel.baml
+E:\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+E:\WpfApp1\WpfApp1\obj\Debug\DateTimePicker.g.cs
+E:\WpfApp1\WpfApp1\obj\Debug\DateTimePicker.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\DateTimePicker.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\PropsPanel.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\ArchivePage.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\ConnectWindow.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\SearchPage.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\DateTimePicker.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\PropsPanel.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\ArchivePage.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\ConnectWindow.baml
+C:\Users\andm2\projects\WpfApp1\WpfApp1\obj\Debug\SearchPage.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\DateTimePicker.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\PropsPanel.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\ArchivePage.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\CreateWindow.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\SearchPage.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+F:\Практика\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\App.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\DateTimePicker.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\PropsPanel.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\ArchivePage.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\CreateWindow.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\FiltersWindow.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\SearchPage.baml
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+F:\Практика\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\DateTimePicker.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\PropsPanel.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\ArchivePage.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\CreateWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\FiltersWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\SearchPage.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\App.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\App.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\DateTimePicker.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\PropsPanel.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\ArchivePage.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\CreateWindow.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\FiltersWindow.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\SearchPage.baml
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\student9\source\repos\WpfApp1 v8\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Практика\Project\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Практика\Project\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Практика\Project\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.dll
+D:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.xml
+D:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Практика\Project\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Практика\Project\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\DateTimePicker.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\PropsPanel.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\ArchivePage.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\CreateWindow.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\FiltersWindow.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\SearchPage.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\App.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Практика\Project\WpfApp1\obj\Debug\App.baml
+D:\Практика\Project\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+D:\Практика\Project\WpfApp1\obj\Debug\DateTimePicker.baml
+D:\Практика\Project\WpfApp1\obj\Debug\PropsPanel.baml
+D:\Практика\Project\WpfApp1\obj\Debug\ArchivePage.baml
+D:\Практика\Project\WpfApp1\obj\Debug\CreateWindow.baml
+D:\Практика\Project\WpfApp1\obj\Debug\FiltersWindow.baml
+D:\Практика\Project\WpfApp1\obj\Debug\MainWindow.baml
+D:\Практика\Project\WpfApp1\obj\Debug\SearchPage.baml
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.pdb
+F:\Практика\Project\WpfApp1\bin\Debug\WpfApp1.exe.config
+F:\Практика\Project\WpfApp1\bin\Debug\WpfApp1.exe
+F:\Практика\Project\WpfApp1\bin\Debug\WpfApp1.pdb
+F:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.dll
+F:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+F:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.xml
+F:\Практика\Project\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+F:\Практика\Project\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\Практика\Project\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\DateTimePicker.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\PropsPanel.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\ArchivePage.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\CreateWindow.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\FiltersWindow.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\MainWindow.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\SearchPage.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\App.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\Практика\Project\WpfApp1\obj\Debug\App.baml
+F:\Практика\Project\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+F:\Практика\Project\WpfApp1\obj\Debug\DateTimePicker.baml
+F:\Практика\Project\WpfApp1\obj\Debug\PropsPanel.baml
+F:\Практика\Project\WpfApp1\obj\Debug\ArchivePage.baml
+F:\Практика\Project\WpfApp1\obj\Debug\CreateWindow.baml
+F:\Практика\Project\WpfApp1\obj\Debug\FiltersWindow.baml
+F:\Практика\Project\WpfApp1\obj\Debug\MainWindow.baml
+F:\Практика\Project\WpfApp1\obj\Debug\SearchPage.baml
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.g.resources
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.exe
+F:\Практика\Project\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student9\source\repos\Project\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\DateTimePicker.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\PropsPanel.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\ArchivePage.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\CreateWindow.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\FiltersWindow.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\SearchPage.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\App.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\App.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\DateTimePicker.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\PropsPanel.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\ArchivePage.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\CreateWindow.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\FiltersWindow.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\SearchPage.baml
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\student9\source\repos\Project\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\EntityFramework.dll
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\EntityFramework.xml
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Практика\ProjectFinal\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\DateTimePicker.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\PropsPanel.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\ArchivePage.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\CreateWindow.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\FiltersWindow.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\SearchPage.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\App.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\App.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\DateTimePicker.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\PropsPanel.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\ArchivePage.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\CreateWindow.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\FiltersWindow.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\MainWindow.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\SearchPage.baml
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Практика\ProjectFinal\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\andm2\projects\FQW\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\ConnectionSettingsPage.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\DateTimePicker.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\PropsPanel.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\ArchivePage.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\CreateWindow.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\FiltersWindow.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\SearchPage.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\App.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\App.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\ConnectionSettingsPage.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\DateTimePicker.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\PropsPanel.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\ArchivePage.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\CreateWindow.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\FiltersWindow.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\SearchPage.baml
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\andm2\projects\FQW\WpfApp1\obj\Debug\WpfApp1.pdb

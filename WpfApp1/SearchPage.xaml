@@ -1,0 +1,69 @@
+﻿<Page x:Class="WpfApp1.SearchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800">
+
+    <DockPanel>
+
+        <Menu 
+            DockPanel.Dock="Top"
+            HorizontalAlignment="Center">
+            <Button 
+                x:Name="printButton" 
+                Content="Вывести" 
+                Click="PrintButton_Click"/>
+            <Button
+                x:Name="filtersButton"
+                Content="Фильтры"
+                Click="FiltersButton_Click"/>
+            <Button
+                x:Name="stopButton" 
+                Content="Отмена" 
+                Click="StopButton_Click"/>
+            <Button 
+                x:Name="clearButton" 
+                Content="Очистить" 
+                Click="ClearButton_Click"/>
+
+
+        </Menu>
+        <StatusBar
+            DockPanel.Dock="Bottom">
+            <ProgressBar 
+                x:Name="isExecutePb" 
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" 
+                Width="105" Height="20"/>
+            <Label 
+                x:Name="executeTimeL" 
+                Content="00:00:00" 
+                Width="60"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"/>
+            <Label 
+                x:Name="rowsCountL"
+                Width="100"
+                HorizontalContentAlignment="Left"
+                VerticalContentAlignment="Center"
+                Content="{Binding ElementName=dataGrid, Path=Items.Count}"/>
+        </StatusBar>
+        <DataGrid 
+            x:Name="dataGrid"
+            EnableRowVirtualization="True"
+            EnableColumnVirtualization="True"
+            AutoGenerateColumns="False"
+            MaxColumnWidth="500"
+            MinColumnWidth="30"
+            IsReadOnly="True">
+            <!--
+            Grid.IsSharedSizeScope="True"
+            AlternationCount="3"
+            FrozenColumnCount="1"
+            -->
+        </DataGrid>
+    </DockPanel>
+</Page>

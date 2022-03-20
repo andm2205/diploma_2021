@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище RADIOSV_JournalModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Gournal">
+    <Key>
+      <PropertyRef Name="inId" />
+    </Key>
+    <Property Name="inId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dtDate" Type="datetime" Nullable="false" />
+    <Property Name="stUser" Type="varchar" MaxLength="255" />
+    <Property Name="stObject" Type="varchar" MaxLength="750" />
+    <Property Name="stComments" Type="varchar" MaxLength="750" />
+    <Property Name="inOperation" Type="int" Nullable="false" />
+    <Property Name="inGroup" Type="tinyint" />
+    <Property Name="idobject" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Хранилище RADIOSV_JournalModelContainer">
+    <EntitySet Name="Gournal" EntityType="Self.Gournal" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

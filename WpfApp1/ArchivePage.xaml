@@ -1,0 +1,56 @@
+﻿<Page x:Class="WpfApp1.ArchivePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450">
+
+    <DockPanel>
+        <StatusBar
+            DockPanel.Dock="Bottom">
+            <ProgressBar x:Name="isExecutePb" Height="20" Width="100"/>
+            <Label x:Name="executeTimeL" Content="00:00:00"/>
+        </StatusBar>
+        <Grid>
+            <ItemsControl 
+                Style="{StaticResource ActionPanelStyle}"
+                HorizontalAlignment="Center"
+                MinWidth="500">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <DockPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl 
+                    Style="{DynamicResource ControlPanelStyle}"
+                    DockPanel.Dock ="Bottom">
+                    <Grid
+                        HorizontalAlignment="Right">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock 
+                            Text="Количество строк за транзакцию: "
+                            Grid.Column="0"
+                            VerticalAlignment="Center"/>
+                        <TextBox 
+                            x:Name="rowCountTb"
+                            Grid.Column="1"
+                            Width="100"
+                            MaxLength="9"/>
+                    </Grid>
+                    
+                    <Button x:Name="executeButton"
+                        Content="Архивировать"
+                        Click="Button_Click"/>
+                    <Button x:Name="stopButton"
+                        Content="Остановить"
+                        Click="StopButton_Click"/>
+                </ItemsControl>
+                <ListBox x:Name="logListBox"/>
+            </ItemsControl>
+        </Grid>
+    </DockPanel>
+</Page>

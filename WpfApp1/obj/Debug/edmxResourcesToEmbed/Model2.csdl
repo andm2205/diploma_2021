@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RADIOSV_Journal_backupModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Gournal">
+    <Key>
+      <PropertyRef Name="inId" />
+    </Key>
+    <Property Name="inId" Type="Int64" Nullable="false" />
+    <Property Name="dtDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="stUser" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="stObject" Type="String" MaxLength="750" FixedLength="false" Unicode="false" />
+    <Property Name="stComments" Type="String" MaxLength="750" FixedLength="false" Unicode="false" />
+    <Property Name="inOperation" Type="Int32" Nullable="false" />
+    <Property Name="inGroup" Type="Byte" />
+    <Property Name="idobject" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="RADIOSV_Journal_backupEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Gournal" EntityType="Self.Gournal" />
+  </EntityContainer>
+</Schema>

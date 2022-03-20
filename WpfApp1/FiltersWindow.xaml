@@ -1,0 +1,74 @@
+﻿<Window x:Name="window" x:Class="WpfApp1.FiltersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Фильтры" Height="375" Width="340"
+        ResizeMode="NoResize"
+        SizeToContent="WidthAndHeight" MaxWidth="340" MinWidth="340" MaxHeight="375" MinHeight="375">
+    <Grid>
+        <ItemsControl Style="{StaticResource ActionPanelStyle}">
+            <ItemsControl Style="{DynamicResource PropsPanelStyle}">
+                <GroupBox Header="Временной интервал">
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                </Grid>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <TextBlock Text="Начало:" Grid.Row="0"/>
+                        <local:DateTimePicker x:Name="startDateTimePicker" Grid.Row="0"/>
+                        <TextBlock Text="Конец:" Grid.Row="1"/>
+                        <local:DateTimePicker x:Name="endDateTimePicker" Grid.Row="1"/>
+                        <CheckBox x:Name="dateFilterCb" Content="Использовать временной интервал" Grid.Row="2"/>
+                    </ItemsControl>
+                </GroupBox>
+                <GroupBox BorderThickness="0">
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                </Grid>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <TextBlock Text="Количество строк:" Grid.Row="0"/>
+                        <TextBox x:Name="rowCountTb"  Grid.Row="0"  MaxLength="7"/>
+                        <TextBlock Text="Пользователь:" Grid.Row="1"/>
+                        <TextBox x:Name="userNameTb" Grid.Row="1"/>
+                        <TextBlock Text="Имена объектов:"  Grid.Row="2" Height="80"/>
+                        <TextBox x:Name="objectNameTb" Grid.Row="2" TextWrapping="NoWrap" AcceptsReturn="True" Height="80" MinHeight="80" MaxHeight="80"/>
+                        <TextBlock Text="Комментарий:"  Grid.Row="3"/>
+                        <TextBox x:Name="commentTb" Grid.Row="3"/>
+                    </ItemsControl>
+                </GroupBox>
+            </ItemsControl>
+            <ItemsControl Style="{DynamicResource ControlPanelStyle}">
+                <Button Content="Сохранить" Click="Button_Click"/>
+                <Button Content="Сбросить" Click="Button_Click_1"/>
+            </ItemsControl>
+        </ItemsControl>
+    </Grid>
+</Window>

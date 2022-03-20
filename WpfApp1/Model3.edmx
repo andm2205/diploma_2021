@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище RADIOSV_JournalModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Gournal">
+          <Key>
+            <PropertyRef Name="inId" />
+          </Key>
+          <Property Name="inId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dtDate" Type="datetime" Nullable="false" />
+          <Property Name="stUser" Type="varchar" MaxLength="255" />
+          <Property Name="stObject" Type="varchar" MaxLength="750" />
+          <Property Name="stComments" Type="varchar" MaxLength="750" />
+          <Property Name="inOperation" Type="int" Nullable="false" />
+          <Property Name="inGroup" Type="tinyint" />
+          <Property Name="idobject" Type="int" />
+        </EntityType>
+        <EntityContainer Name="Хранилище RADIOSV_JournalModelContainer">
+          <EntitySet Name="Gournal" EntityType="Self.Gournal" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RADIOSV_JournalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Gournal">
+          <Key>
+            <PropertyRef Name="inId" />
+          </Key>
+          <Property Name="inId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dtDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="stUser" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="stObject" Type="String" MaxLength="750" FixedLength="false" Unicode="false" />
+          <Property Name="stComments" Type="String" MaxLength="750" FixedLength="false" Unicode="false" />
+          <Property Name="inOperation" Type="Int32" Nullable="false" />
+          <Property Name="inGroup" Type="Byte" />
+          <Property Name="idobject" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="RADIOSV_JournalEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Gournal" EntityType="Self.Gournal" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище RADIOSV_JournalModelContainer" CdmEntityContainer="RADIOSV_JournalEntities">
+          <EntitySetMapping Name="Gournal">
+            <EntityTypeMapping TypeName="RADIOSV_JournalModel.Gournal">
+              <MappingFragment StoreEntitySet="Gournal">
+                <ScalarProperty Name="inId" ColumnName="inId" />
+                <ScalarProperty Name="dtDate" ColumnName="dtDate" />
+                <ScalarProperty Name="stUser" ColumnName="stUser" />
+                <ScalarProperty Name="stObject" ColumnName="stObject" />
+                <ScalarProperty Name="stComments" ColumnName="stComments" />
+                <ScalarProperty Name="inOperation" ColumnName="inOperation" />
+                <ScalarProperty Name="inGroup" ColumnName="inGroup" />
+                <ScalarProperty Name="idobject" ColumnName="idobject" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

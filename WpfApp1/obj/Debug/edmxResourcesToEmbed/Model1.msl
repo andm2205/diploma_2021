@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище demo18ModelContainer" CdmEntityContainer="demo18Entities">
+    <EntitySetMapping Name="Gournal">
+      <EntityTypeMapping TypeName="demo18Model.Gournal">
+        <MappingFragment StoreEntitySet="Gournal">
+          <ScalarProperty Name="inId" ColumnName="inId" />
+          <ScalarProperty Name="dtDate" ColumnName="dtDate" />
+          <ScalarProperty Name="stUser" ColumnName="stUser" />
+          <ScalarProperty Name="stObject" ColumnName="stObject" />
+          <ScalarProperty Name="stComments" ColumnName="stComments" />
+          <ScalarProperty Name="inOperation" ColumnName="inOperation" />
+          <ScalarProperty Name="inGroup" ColumnName="inGroup" />
+          <ScalarProperty Name="idobject" ColumnName="idobject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JournalDetails">
+      <EntityTypeMapping TypeName="demo18Model.JournalDetails">
+        <MappingFragment StoreEntitySet="JournalDetails">
+          <ScalarProperty Name="inOpCode" ColumnName="inOpCode" />
+          <ScalarProperty Name="stDone" ColumnName="stDone" />
+          <ScalarProperty Name="stComment_rule" ColumnName="stComment_rule" />
+          <ScalarProperty Name="stProcedure_name" ColumnName="stProcedure_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

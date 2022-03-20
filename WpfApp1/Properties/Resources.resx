@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeStateConstraintsFunc" xml:space="preserve">
+    <value>ALTER PROCEDURE [dbo].[ChangeStateConstraints]
+@state BIT
+AS
+BEGIN
+	ALTER TABLE [dbo].[Journal] CHECK CONSTRAINT ALL
+	IF @state = 0
+	BEGIN
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inUser
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inObject
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inOperation
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inComment
+	END
+END</value>
+  </data>
+  <data name="CopyJournalFunc" xml:space="preserve">
+    <value>ALTER PROCEDURE [dbo].[CopyJournal]
+@cRow BIGINT
+AS
+BEGIN
+	SET NOEXEC OFF;
+
+	SELECT TOP(@cRow) * INTO #tempJournal
+		FROM [{1}].[dbo].[{2}];
+	DECLARE @CURROWC INT;
+	SET @CURROWC = @@ROWCOUNT;
+	IF @CURROWC = 0
+		RETURN @CURROWC;
+
+	INSERT INTO [dbo].[Operations] (inId)
+	SELECT DISTINCT inOperation FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) B.inId FROM [dbo].[Operations] B WHERE B.inId = A.inOperation)
+
+	INSERT INTO [dbo].[Objects] (stName)
+	SELECT DISTINCT [stObject] FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) stName FROM [dbo].[Objects] B WHERE A.stObject = B.stName)
+	AND A.[stObject] IS NOT NULL
+
+	INSERT INTO [dbo].[Users] (stName)
+	SELECT DISTINCT [stUser] FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) stName FROM [dbo].[Users] B WHERE A.stUser = B.stName)
+	AND A.[stUser] IS NOT NULL
+
+	INSERT INTO [dbo].[Comments] (stName)
+	SELECT DISTINCT [stComments] FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) stName FROM [dbo].[Comments] B WHERE A.stComments = B.stName)
+	AND A.[stComments] IS NOT NULL
+
+	INSERT INTO [dbo].[Journal]
+	SELECT Journal1.[inId], Journal1.[dtDate], Users.[inId], Objecs.[inId], 
+	Comments.[inId], Journal1.[inOperation], Journal1.[inGroup], Journal1.[idobject]
+	FROM #tempJournal AS Journal1
+	LEFT JOIN [dbo].[Objects] AS Objecs ON (Journal1.[stObject] = Objecs.[stName])
+	LEFT JOIN [dbo].[Users] AS Users ON (Journal1.[stUser] = Users.[stName])
+	LEFT JOIN [dbo].[Comments] AS Comments ON (Journal1.[stComments] = Comments.[stName])
+
+	DELETE A FROM [{1}].[dbo].[{2}] A
+	WHERE EXISTS (SELECT TOP (1) inId FROM [#tempJournal] B WHERE A.[inId] = B.[inId]);
+	
+	IF @@ROWCOUNT != @CURROWC
+		THROW 50000, 'copy error', 1;
+
+	DROP TABLE #tempJournal;
+
+	SELECT @CURROWC;
+
+	SET NOEXEC ON;
+END</value>
+  </data>
+  <data name="DatabaseStruct" xml:space="preserve">
+    <value>CREATE DATABASE [{0}]
+GO
+
+USE [{0}]
+GO
+
+CREATE TABLE [dbo].[Users](
+	[inId] [int] IDENTITY(1,1) NOT NULL,
+	[stName] [varchar](255) NOT NULL,
+	CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED([inId] ASC)
+)
+
+CREATE UNIQUE INDEX [IX_Users_stName] ON [dbo].[Users]([stName] ASC)
+
+CREATE TABLE [dbo].[Objects](
+	[inId] [bigint] IDENTITY(1,1) NOT NULL,
+	[stName] [varchar](750) NOT NULL,
+	CONSTRAINT [PK_Objects] PRIMARY KEY CLUSTERED([inId] ASC)
+)
+
+CREATE UNIQUE INDEX [IX_Objects_stName] ON [dbo].[Objects]([stName] ASC)
+
+CREATE TABLE [dbo].[Operations](
+	[inId] [int] NOT NULL,
+	[stName] [varchar](100) NULL,
+	[stCommentRule] [varchar](1000) NULL,
+	[stProcedureName] [varchar](255) NULL,
+	CONSTRAINT [PK_Operations] PRIMARY KEY CLUSTERED ([inId] ASC)
+)
+
+CREATE INDEX [IX_Operations_stName] ON [dbo].[Operations]([stName])
+
+CREATE TABLE [dbo].[Comments](
+	[inId] [bigint] IDENTITY(1,1) NOT NULL,
+	[stName] [varchar](750) NOT NULL,
+	CONSTRAINT [PK_Comments] PRIMARY KEY CLUSTERED ([inId] ASC)
+)
+
+CREATE INDEX [IX_Comments_stName] ON [dbo].[Comments]([stName])
+
+CREATE TABLE [dbo].[Journal](
+	[inId] [bigint] NOT NULL,
+	[dtDate] [datetime] NOT NULL,
+	[inUser] [int] NULL,
+	[inObject] [bigint] NULL,
+	[inComment] [bigint] NULL,
+	[inOperation] [int] NOT NULL,
+	[inGroup] [tinyint] NULL,
+	[idobject] [int] NULL,
+ CONSTRAINT [PK_Journal] PRIMARY KEY CLUSTERED ([inId] ASC),
+ CONSTRAINT [FK_Journal_inUser] FOREIGN KEY ([inUser]) REFERENCES [dbo].[Users](inId),
+ CONSTRAINT [FK_Journal_inObject] FOREIGN KEY ([inObject]) REFERENCES [dbo].[Objects](inId),
+ CONSTRAINT [FK_Journal_inOperation] FOREIGN KEY ([inOperation]) REFERENCES [dbo].[Operations](inId),
+ CONSTRAINT [FK_Journal_inComment] FOREIGN KEY ([inComment]) REFERENCES [dbo].[Comments](inId)
+ )
+
+CREATE INDEX [IX_Journal_dtDate] ON [dbo].[Journal]([dtDate])
+CREATE INDEX [IX_Journal_inUser] ON [dbo].[Journal]([inUser])
+CREATE INDEX [IX_Journal_inObject] ON [dbo].[Journal]([inObject])
+CREATE INDEX [IX_Comment_inComment] ON [dbo].[Journal]([inComment])
+
+CREATE TYPE [dbo].[objNamesTable] AS TABLE([name] [varchar](750))
+GO
+
+CREATE PROCEDURE [dbo].[ChangeStateConstraints]
+@state BIT
+AS
+BEGIN
+	ALTER TABLE [dbo].[Journal] CHECK CONSTRAINT ALL
+	IF @state = 0
+	BEGIN
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inUser
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inObject
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inOperation
+		ALTER TABLE [dbo].[Journal] NOCHECK CONSTRAINT FK_Journal_inComment
+	END
+END
+GO
+
+CREATE PROCEDURE [dbo].[CopyJournal]
+@cRow BIGINT
+AS
+BEGIN
+	SET NOEXEC OFF;
+
+	SELECT TOP(@cRow) * INTO #tempJournal
+		FROM [{1}].[dbo].[{2}];
+	DECLARE @CURROWC INT;
+	SET @CURROWC = @@ROWCOUNT;
+	IF @CURROWC = 0
+		RETURN @CURROWC;
+
+	INSERT INTO [dbo].[Operations] (inId)
+	SELECT DISTINCT inOperation FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) B.inId FROM [dbo].[Operations] B WHERE B.inId = A.inOperation)
+
+	INSERT INTO [dbo].[Objects] (stName)
+	SELECT DISTINCT [stObject] FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) stName FROM [dbo].[Objects] B WHERE A.stObject = B.stName)
+	AND A.[stObject] IS NOT NULL
+
+	INSERT INTO [dbo].[Users] (stName)
+	SELECT DISTINCT [stUser] FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) stName FROM [dbo].[Users] B WHERE A.stUser = B.stName)
+	AND A.[stUser] IS NOT NULL
+
+	INSERT INTO [dbo].[Comments] (stName)
+	SELECT DISTINCT [stComments] FROM #tempJournal A
+	WHERE NOT EXISTS (
+	SELECT TOP (1) stName FROM [dbo].[Comments] B WHERE A.stComments = B.stName)
+	AND A.[stComments] IS NOT NULL
+
+	INSERT INTO [dbo].[Journal]
+	SELECT Journal1.[inId], Journal1.[dtDate], Users.[inId], Objecs.[inId], 
+	Comments.[inId], Journal1.[inOperation], Journal1.[inGroup], Journal1.[idobject]
+	FROM #tempJournal AS Journal1
+	LEFT JOIN [dbo].[Objects] AS Objecs ON (Journal1.[stObject] = Objecs.[stName])
+	LEFT JOIN [dbo].[Users] AS Users ON (Journal1.[stUser] = Users.[stName])
+	LEFT JOIN [dbo].[Comments] AS Comments ON (Journal1.[stComments] = Comments.[stName])
+
+	DELETE A FROM [{1}].[dbo].[{2}] A
+	WHERE EXISTS (SELECT TOP (1) inId FROM [#tempJournal] B WHERE A.[inId] = B.[inId]);
+	
+	IF @@ROWCOUNT != @CURROWC
+		THROW 50000, 'copy error', 1;
+
+	DROP TABLE #tempJournal;
+
+	SELECT @CURROWC;
+
+	SET NOEXEC ON;
+END
+GO
+
+CREATE PROCEDURE [dbo].[SearchFunc]
+(	
+	@rowCount BIGINT,
+	@startDate DATETIME = NULL,
+	@endDate DATETIME = NULL,
+	@userName VARCHAR(255) = NULL,
+	@objNames [dbo].[objNamesTable] READONLY,
+	@comment VARCHAR(750) = NULL,
+	@onlyArchive BIT = 0
+)
+AS BEGIN
+	SET @userName = '%' + @userName + '%';
+	SET @comment = '%' + @comment + '%';
+	SELECT ('%' + [name] + '%') AS [name] INTO #objNamesNew FROM @objNames;
+	DECLARE @objNamesCount INT;
+	SET @objNamesCount = 0;
+	SELECT @objNamesCount = COUNT([name]) FROM @objNames;
+	SELECT TOP (@rowCount)
+	Journal.[inId] as [Journal inId], 
+	Journal.[dtDate], 
+	Users.[stName] as [User stName],
+	Objects.[stName] as [Object stName], 
+	Comments.[stName] as [Comment stName], 
+	Operations.[inId] as [Operation inId], 
+	Journal.[inGroup], 
+	Journal.[idObject]
+	FROM [Journal] AS Journal
+	LEFT JOIN [dbo].[Objects] AS Objects ON (Journal.[inObject] = Objects.[inId])
+	LEFT JOIN [dbo].[Operations] AS Operations ON (Journal.[inOperation] = Operations.[inId])
+	LEFT JOIN [dbo].[Users] AS Users ON (Journal.[inUser] = Users.[inId])
+	LEFT JOIN [dbo].[Comments] AS Comments ON (Journal.[inComment] = Comments.[inId])
+	WHERE
+	((@startDate IS NULL AND @endDate IS NULL) OR Journal.dtDate BETWEEN @startDate and @endDate) 
+	AND ((@userName IS NULL) OR Users.[stName] LIKE (@userName))
+	AND (@objNamesCount = 0 OR EXISTS(SELECT TOP(1) [name] FROM #objNamesNew AB WHERE Objects.stName LIKE AB.[name]))
+	AND ((@comment IS NULL) OR Comments.[stName] LIKE (@comment))
+	UNION
+	SELECT TOP (@rowCount) *
+	FROM [{1}].[dbo].[{2}] g
+	WHERE
+	((@startDate IS NULL AND @endDate IS NULL) OR g.dtDate BETWEEN @startDate and @endDate) 
+	AND ((@userName IS NULL) OR g.stUser LIKE (@userName))
+	AND (@objNamesCount = 0 OR EXISTS(SELECT TOP(1) [name] FROM #objNamesNew AB WHERE g.stObject LIKE AB.[name]))
+	AND ((@comment IS NULL) OR g.[stComments] LIKE (@comment ))
+END
+GO
+
+CREATE PROCEDURE [dbo].[MergeOperations]
+AS
+BEGIN
+	SET NOEXEC OFF;
+	MERGE INTO [dbo].[Operations] AS dst
+	USING [{1}].[dbo].[{3}] AS src
+	ON (dst.inId = src.inOpCode)
+	WHEN NOT MATCHED THEN
+	INSERT (inId, stName, stCommentRule, stProcedureName) 
+	VALUES (inOpCode, stDone, stComment_rule, stProcedure_name);
+	SET NOEXEC ON;
+	RETURN @@ROWCOUNT;
+END
+GO</value>
+  </data>
+  <data name="MergeOperationsFunc" xml:space="preserve">
+    <value>ALTER PROCEDURE [dbo].[MergeOperations]
+AS
+BEGIN
+	SET NOEXEC OFF;
+	MERGE INTO [dbo].[Operations] AS dst
+	USING [{1}].[dbo].[{3}] AS src
+	ON (dst.inId = src.inOpCode)
+	WHEN NOT MATCHED THEN
+	INSERT (inId, stName, stCommentRule, stProcedureName) 
+	VALUES (inOpCode, stDone, stComment_rule, stProcedure_name);
+	SET NOEXEC ON;
+	RETURN @@ROWCOUNT;
+END</value>
+  </data>
+  <data name="SearchFunc" xml:space="preserve">
+    <value>ALTER PROCEDURE [dbo].[SearchFunc]
+(	
+	@rowCount BIGINT,
+	@startDate DATETIME = NULL,
+	@endDate DATETIME = NULL,
+	@userName VARCHAR(255) = NULL,
+	@objNames [dbo].[objNamesTable] READONLY,
+	@comment VARCHAR(750) = NULL,
+	@onlyArchive BIT = 0
+)
+AS BEGIN
+	IF (@userName IS NULL) SET @userName = '';
+	IF (@comment IS NULL) SET @comment = '';
+	SET @userName = '%' + @userName + '%';
+	SET @comment = '%' + @comment + '%';
+	DECLARE @B1 BIT;
+	SET @B1 = 0;
+	IF (@startDate IS NULL OR @endDate IS NULL) SET @B1 = 1;	
+	SELECT ('%' + [name] + '%') AS [name] INTO #objNamesNew FROM @objNames;
+	DECLARE @objNamesCount INT;
+	SET @objNamesCount = 0;
+	SELECT @objNamesCount = COUNT([name]) FROM @objNames;
+	SELECT TOP (@rowCount)
+	Journal.[inId] as [Journal inId], 
+	Journal.[dtDate], 
+	Users.[stName] as [User stName],
+	Objects.[stName] as [Object stName], 
+	Comments.[stName] as [Comment stName], 
+	Operations.[inId] as [Operation inId], 
+	Journal.[inGroup], 
+	Journal.[idObject]
+	FROM [Journal] AS Journal
+	LEFT JOIN [dbo].[Objects] AS Objects ON (Journal.[inObject] = Objects.[inId])
+	LEFT JOIN [dbo].[Operations] AS Operations ON (Journal.[inOperation] = Operations.[inId])
+	LEFT JOIN [dbo].[Users] AS Users ON (Journal.[inUser] = Users.[inId])
+	LEFT JOIN [dbo].[Comments] AS Comments ON (Journal.[inComment] = Comments.[inId])
+	WHERE
+	(@B1 = 1 OR Journal.dtDate BETWEEN @startDate and @endDate) 
+	AND (Users.[stName] LIKE (@userName))
+	AND (@objNamesCount = 0 OR EXISTS(SELECT TOP(1) [name] FROM #objNamesNew AB WHERE Objects.stName LIKE AB.[name]))
+	AND (Comments.[stName] LIKE (@comment))
+	UNION
+	SELECT TOP (@rowCount) *
+	FROM [{1}].[dbo].[{2}] g
+	WHERE
+	(@B1 = 1 OR g.dtDate BETWEEN @startDate and @endDate) 
+	AND (g.stUser LIKE (@userName))
+	AND (@objNamesCount = 0 OR EXISTS(SELECT TOP(1) [name] FROM #objNamesNew AB WHERE g.stObject LIKE AB.[name]))
+	AND (g.[stComments] LIKE (@comment ))
+END</value>
+  </data>
+</root>
